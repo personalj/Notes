@@ -1,0 +1,16 @@
+@import "./vars";
+.info {
+    &__form {
+      max-width: 30rem;
+    }
+    &__input.invalid {
+      transition: all 0.3s ease;
+      border: 1px solid $mainRed;
+    }
+    &__label {
+        font-weight: bold;
+    }
+  }
+  .invalid-message {
+    color: $mainRed;
+  }
